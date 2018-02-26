@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/bluevc/IdeaProjects/Total_Scala_with_sbt/src/main/scala/chapter02/wwww.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(chapter02.wwww)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(chapter02.wwww)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/bluevc/IdeaProjects/Total_Scala_with_sbt/src/main/scala/chapter02/wwww.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 12054a45 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/bluevc/jdk1.8.0_151/jre/lib/resources.jar:/home/bluevc/jdk1.8.0_151/jre/lib/rt.jar:/home/bluevc/jdk1.8.0_151/jre/lib/sunrsasign.jar:/home/bluevc/jdk1.8.0_151/jre/lib/jsse.jar:/home/bluevc/jdk1.8.0_151/jre/lib/jce.jar:/home/bluevc/jdk1.8.0_151/jre/lib/charsets.jar:/home/bluevc/jdk1.8.0_151/jre/lib/jfr.jar:/home/bluevc/jdk1.8.0_151/jre/classes:/home/bluevc/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes:/home/bluevc/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.3.0.jar:/home/bluevc/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.11.2.jar:/home/bluevc/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.7.jar:/home/bluevc/.ivy2/cache/com.typesafe.play/play-functional_2.12/jars/play-functional_2.12-2.6.7.jar:/home/bluevc/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/bluevc/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/home/bluevc/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar:/home/bluevc/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.9.jar:/home/bluevc/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.9.jar:/home/bluevc/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.9.jar:/home/bluevc/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.9.jar:/home/bluevc/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.8.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.540056322 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from chapter02.wwww...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(chapter02.wwww)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(chapter02.wwww)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(chapter02.wwww,ModifiedNames(changes = UsedName(wwww,[Default]), UsedName(x,[Default]), UsedName(args,[Default]), UsedName(trans,[Default]), UsedName(delayedInit,[Default]), UsedName(i,[Default]), UsedName($init$,[Default]), UsedName(set,[Default]), UsedName(executionStart,[Default]), UsedName(p,[Default]), UsedName(Person,[Default]), UsedName(main,[Default]))) invalidates 1 classes due to The chapter02.wwww has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(wwww,[Default]), UsedName(x,[Default]), UsedName(args,[Default]), UsedName(trans,[Default]), UsedName(delayedInit,[Default]), UsedName(i,[Default]), UsedName($init$,[Default]), UsedName(set,[Default]), UsedName(executionStart,[Default]), UsedName(p,[Default]), UsedName(Person,[Default]), UsedName(main,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(chapter02.wwww)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from chapter02.wwww.Person...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(chapter02.wwww.Person)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(chapter02.wwww.Person)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(chapter02.wwww.Person,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName($isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(eq,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName(chapter02;wwww;Person;init;,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(notify,[Default]), UsedName(Person,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The chapter02.wwww.Person has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName($isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(ne,[Default]), UsedName(getClass,[Default]), UsedName(synchronized,[Default]), UsedName($asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(eq,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName(chapter02;wwww;Person;init;,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(notify,[Default]), UsedName(Person,[Default]), UsedName(!=,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(chapter02.wwww.Person)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

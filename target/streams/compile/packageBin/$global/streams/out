@@ -1,0 +1,23 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/total_scala_with_sbt_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/wwww$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/wwww$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/wwww$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/wwww$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/package$whileLoop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/package$whileLoop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/wwww.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/wwww.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/wwww$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/wwww$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/package$whileLoop$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/package$whileLoop$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	chapter02/package$whileLoop$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/classes/chapter02/package$whileLoop$delayedInit$body.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
