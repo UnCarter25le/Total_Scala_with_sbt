@@ -1,362 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_4_the_obligation_of_implicit.scala" line="12" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72061665-f17a-4d1a-bd31-32e21f15f8f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_1_introduction_of_pattern_match.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_2_genre_of_pattern_match.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_3_principle_of_pattern_match.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_4_Regular_expression_and_pattern_match.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_5_pattern_match_in_for_loop.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_1_the_introduction_of_implicit.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_2_the_definition_of_implicit.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_3_implicit_class_and_object_and_parameter.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_4_the_obligation_of_implicit.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_1_class_and_type.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_2_general_type.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_3_type_variable_bound.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_4_view_bound.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_5_context_bound.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_8_advance_type.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_1_definition_of_varivable.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_2_basic_data_type.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_3_basic_manipulate_of_data_type.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_4_priority_of_calculate.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_5_tuple.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/ch2_6_genre_of_foohow.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package$whileLoop$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch02_variable_and_integral_type_PHOTO/package.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_1_if.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_2_while_loop.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch03_loop/ch03_3_for_loop.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_1__4_2_3_Array_immutable_and_mutable.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_4_Array_inspect.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_5_method.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_2_6_multiple_xy.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_3_List.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_4_Set.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_5_Map.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_6_Queue.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch04_collection/ch4_7_Stack.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_1_definition_of_function.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_2_function_literal.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_3_highclass_function.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_4_Closure.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_5_Currying.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_6_partial_application.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch05_function/ch05_7_partial_Function.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_01$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_01$Student$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_01$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_02$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_02$Student$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_02$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_02$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_03$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_03$Student$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_03$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_03$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_04$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_04$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_04$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_05$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_05$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_05$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_06$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_06$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_06$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_06$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_07$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_07$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_07$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_07$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_08$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_08$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_08$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_08$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_09$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_09$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_09$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_10$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_10$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_10$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_10$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_11$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_11$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_11$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_11$Teacher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_11$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_12$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_12$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_12$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_12$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student$Grade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student$Printer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student$Utils1$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student$Utils2$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_13$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_14$$anon$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_14$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_14$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_14$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_15$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_15$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_15$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_16$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_16$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_16$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_17$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_17$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_18$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_18$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_18$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_19$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_19$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_20$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_20$Person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_20$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_21$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_21$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_21$Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1$Example6_21$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Person1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Person1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_1$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_1$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_2$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_2$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_2$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_2$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_3$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_3$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_4$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_4$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_5$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_5$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_5.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$Student_5.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_1_class_and_object.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_3$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_3$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_4$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_4$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_5$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_5$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_5.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$Person_5.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_2_constructor.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_1$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_1$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_2$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_2$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_3_assist_construction.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Person_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Student_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Teacher.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$Teacher.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_4_extend_and_polymorphy.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_5$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_5$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_5.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_5.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_6$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_6$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_6.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_6.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_7.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_7.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_8.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_8.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_9.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Person_9.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_7.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$Student_7.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_5_control_of_local_variables.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Person_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_4.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$Student_4.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_6_abstract_class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Grade.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Grade.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Printer.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Printer.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Utils1$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Utils1$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Utils2$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student$Utils2$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$Student.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_7_inside_class_and_object.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$$anon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$NamedClass.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$NamedClass.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/ch06_8_anonymous_class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/person$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/person$Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/person$Student$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch06_object_oriented_first/person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$Closable.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$Closable.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$File.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$File.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$File_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$File_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$Processable.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$Processable.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_1_what_is_trait.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$$anon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$$anon$2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$$anon$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Closable_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Closable_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$FileLogger_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Logger_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAOImpl_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$PersonDAO_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Person_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_3.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$Student_3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_2_uses_of_trait.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$$anon$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$A.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$A.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$AA.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$AA.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$B.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$B.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$BB.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$BB.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$C.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$C.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger_2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Logger_2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Person_1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$Person_1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_3_trait_and_class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$A.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$A.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$AA.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$AA.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$B1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$B1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$B2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$B2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$C.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$C.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$CC.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$CC.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$b1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$b1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$b2.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$b2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_4_multiple_inherit.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_5_self_type$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_5_self_type$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_5_self_type.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch07_object_oriented_second/ch07_5_self_type.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_3_package_object/package$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_3_package_object/package$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_3_package_object/package.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_3_package_object/package.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Animal.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Animal.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package$Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_1_what_is_package.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_2_uses_and_restriction_of_package.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_3_test_package_object.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/ch08_4_feature_of_import.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/Utils$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/Utils$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/Utils.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/Utils.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/UtilsPrivate$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/UtilsPrivate$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/UtilsPrivate.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/UtilsPrivate.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/Teacher.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/Teacher.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivate$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivate$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivate.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivate.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivateThis$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivateThis$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivateThis.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/chapter08/TeacherPrivateThis.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/spark/SparkDemo.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch08_package/cn/scala/spark/SparkDemo.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala" afterPath="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ch09_pattern_match/ch09_6_caseclass_and_pattern_match$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ch09_pattern_match/ch09_6_caseclass_and_pattern_match$.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -393,61 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ch08_2_uses_and_restriction_of_package.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_2_uses_and_restriction_of_package.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="37" />
-              <folding>
-                <element signature="e#69#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch08_1_what_is_package.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_1_what_is_package.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch08_4_feature_of_import.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_4_feature_of_import.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="e#473#514#0" expanded="true" />
-                <element signature="e#1181#1214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch09_1_introduction_of_pattern_match.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_1_introduction_of_pattern_match.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="15" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="50" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch09_2_genre_of_pattern_match.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_2_genre_of_pattern_match.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ch09_3_principle_of_pattern_match.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_3_principle_of_pattern_match.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -458,41 +64,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch09_4_Regular_expression_and_pattern_match.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_4_Regular_expression_and_pattern_match.scala">
+      <file leaf-file-name="ch10_1_the_introduction_of_implicit.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_1_the_introduction_of_implicit.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="236" column="9" lean-forward="false" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+            <state relative-caret-position="550">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch09_5_pattern_match_in_for_loop.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_5_pattern_match_in_for_loop.scala">
+      <file leaf-file-name="ch10_3_implicit_class_and_object_and_parameter.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_3_implicit_class_and_object_and_parameter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6072">
+              <caret line="276" column="2" lean-forward="false" selection-start-line="276" selection-start-column="2" selection-end-line="277" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch10_4_the_obligation_of_implicit.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_4_the_obligation_of_implicit.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2882">
+              <caret line="131" column="13" lean-forward="false" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_1_class_and_type.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_1_class_and_type.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="e#53#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_2_general_type.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_2_general_type.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_3_type_variable_bound.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_3_type_variable_bound.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-682">
+              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_4_view_bound.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_4_view_bound.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_5_context_bound.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_5_context_bound.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1034">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch11_8_advance_type.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_8_advance_type.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch09_6_caseclass_and_pattern_match.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="99" column="31" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch06_4_extend_and_polymorphy.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_4_extend_and_polymorphy.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -514,6 +172,10 @@
       <find>:</find>
       <find>flatMap</find>
       <find>Person</find>
+      <find>predef</find>
+      <find>product</find>
+      <find>2.55</find>
+      <find>implicit val</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -532,22 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/ch02_variable_and_type/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch02_variable_and_integral_type/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch02_variable_and_integral_type_PHOTO/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_1_definition_of_function.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ttt.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_2_function_literal.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_3_highclass_function.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_4_Closure.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_5_.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_5_Currying.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_6_partial_application.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch05_function/ch05_7_partial_Function.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_1_class_and_object.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_2_constructor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_3_assist_construction.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_4_extend_and_polymorphy.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_5_control_of_local_variables.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_6_abstract_class.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_7_inside_class_and_object.scala" />
@@ -583,14 +229,30 @@
         <option value="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_4_Regular_expression_and_pattern_match.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_5_pattern_match_in_for_loop.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_1_the_definition_of_implicit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_1_the_introduction_of_implicit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_2_the_definition_of_implicit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_3_implicit_class_and_object.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_10_4_the_obligation_of_implicit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_4_the_obligation_of_implicit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/ch11_1_class_and_type.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/ch11_2_general_type.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/ch11_3_the_margin_for_variable_type.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/ch11_3_type_variable_bound.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/ch11_4_view_bound.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_4_view_bound.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_2_general_type.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_5_context_bound.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_8_advance_type.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
-    <option name="y" value="-5" />
-    <option name="width" value="1839" />
-    <option name="height" value="1085" />
+    <option name="x" value="999" />
+    <option name="y" value="27" />
+    <option name="width" value="919" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -608,8 +270,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -635,20 +297,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Total_Scala_with_sbt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Total_Scala_with_sbt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="ch09_pattern_match" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ch09_6_caseclass_and_pattern_match">
+  <component name="RunManager" selected="Application.ch11_8_advance_type">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -693,14 +347,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ch06_4_extend_and_polymorphy" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ch11_2_general_type" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch06_object_oriented_first.*" />
+          <option name="PATTERN" value="ch11_type_parametor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch06_object_oriented_first.ch06_4_extend_and_polymorphy" />
+      <option name="MAIN_CLASS_NAME" value="ch11_type_parametor.ch11_2_general_type" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -712,14 +366,14 @@
       <module name="total_scala_with_sbt" />
       <envs />
     </configuration>
-    <configuration name="ch09_3_principle_of_pattern_match" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ch11_3_type_variable_bound" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch09_pattern_match.*" />
+          <option name="PATTERN" value="ch11_type_parametor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch09_pattern_match.ch09_3_principle_of_pattern_match" />
+      <option name="MAIN_CLASS_NAME" value="ch11_type_parametor.ch11_3_type_variable_bound" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -731,14 +385,14 @@
       <module name="total_scala_with_sbt" />
       <envs />
     </configuration>
-    <configuration name="ch09_4_Regular_expression_and_pattern_match" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ch11_4_view_bound" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch09_pattern_match.*" />
+          <option name="PATTERN" value="ch11_type_parametor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch09_pattern_match.ch09_4_Regular_expression_and_pattern_match" />
+      <option name="MAIN_CLASS_NAME" value="ch11_type_parametor.ch11_4_view_bound" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -750,14 +404,14 @@
       <module name="total_scala_with_sbt" />
       <envs />
     </configuration>
-    <configuration name="ch09_5_pattern_match_in_for_loop" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ch11_5_context_bound" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch09_pattern_match.*" />
+          <option name="PATTERN" value="ch11_type_parametor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch09_pattern_match.ch09_5_pattern_match_in_for_loop" />
+      <option name="MAIN_CLASS_NAME" value="ch11_type_parametor.ch11_5_context_bound" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -769,14 +423,14 @@
       <module name="total_scala_with_sbt" />
       <envs />
     </configuration>
-    <configuration name="ch09_6_caseclass_and_pattern_match" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ch11_8_advance_type" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch09_pattern_match.*" />
+          <option name="PATTERN" value="ch11_type_parametor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch09_pattern_match.ch09_6_caseclass_and_pattern_match" />
+      <option name="MAIN_CLASS_NAME" value="ch11_type_parametor.ch11_8_advance_type" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -856,19 +510,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="sbt Task.Run the program" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ch09_3_principle_of_pattern_match" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ch06_4_extend_and_polymorphy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ch09_4_Regular_expression_and_pattern_match" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ch09_5_pattern_match_in_for_loop" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ch09_6_caseclass_and_pattern_match" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ch11_2_general_type" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ch11_3_type_variable_bound" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ch11_4_view_bound" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ch11_5_context_bound" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ch11_8_advance_type" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ch09_6_caseclass_and_pattern_match" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ch09_5_pattern_match_in_for_loop" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ch09_4_Regular_expression_and_pattern_match" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ch06_4_extend_and_polymorphy" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ch09_3_principle_of_pattern_match" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ch11_8_advance_type" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ch11_2_general_type" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ch11_3_type_variable_bound" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ch11_5_context_bound" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ch11_4_view_bound" />
       </list>
     </recent_temporary>
   </component>
@@ -919,24 +573,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="-5" width="1841" height="1086" extended-state="6" />
+    <frame x="999" y="27" width="1844" height="1089" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32560706" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32453245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37417218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35313532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31232414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24662921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -968,73 +622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch04_collection/ch4_3_List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="151" column="27" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="151" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ttt.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_1_definition_of_function.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1329">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_2_function_literal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_3_highclass_function.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_5_.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_5_Currying.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_4_Closure.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_6_partial_application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_7_partial_Function.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Int.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/person.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch06_object_oriented_first/ch06_2_constructor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch03_loop/ch03_2_while_loop.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
@@ -1143,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,25 +779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_2_uses_and_restriction_of_package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="920">
           <caret line="41" column="2" lean-forward="false" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="e#69#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_1_introduction_of_pattern_match.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="50" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +793,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_4_Regular_expression_and_pattern_match.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5192">
+          <caret line="236" column="9" lean-forward="false" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_5_pattern_match_in_for_loop.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_1_introduction_of_pattern_match.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="15" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_1_what_is_package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_4_feature_of_import.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1228,6 +835,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_2_the_definition_of_implicit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch05_function/ch05_5_Currying.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_3_implicit_class_and_object_and_parameter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6072">
+          <caret line="276" column="2" lean-forward="false" selection-start-line="276" selection-start-column="2" selection-end-line="277" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_1_the_introduction_of_implicit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch10_implicit/ch10_4_the_obligation_of_implicit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2882">
+          <caret line="131" column="13" lean-forward="false" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1240,45 +892,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_1_what_is_package.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_1_class_and_type.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch08_package/ch08_4_feature_of_import.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="792">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
-            <element signature="e#473#514#0" expanded="true" />
-            <element signature="e#1181#1214#0" expanded="true" />
+            <element signature="e#53#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_4_Regular_expression_and_pattern_match.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_and_parametor/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_3_type_variable_bound.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="236" column="9" lean-forward="false" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+        <state relative-caret-position="-682">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_6_caseclass_and_pattern_match.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_2_general_type.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="99" column="31" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ch09_pattern_match/ch09_5_pattern_match_in_for_loop.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_5_context_bound.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_4_view_bound.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="30" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ch11_type_parametor/ch11_8_advance_type.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

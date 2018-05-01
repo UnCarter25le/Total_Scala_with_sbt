@@ -90,11 +90,11 @@ object ch09_6_caseclass_and_pattern_match extends App{
   /*
   * 使用上case class and case object 的差異在：
   *
-  * （）在模式比對時，case class需要建立物件，case object可以直接使用。
+  * （1）在模式比對時，case class需要建立物件，case object可以直接使用。
   *
-  * （）case class類別會產生兩個位元處碼檔案，而case objecy只會有一組。
+  * （2）case class類別會產生兩個位元處碼檔案，而case objecy只會有一組。
   *
-  * （）case class產生衍生物鍵會自動實現apply and unapply方法，而case object則不會！
+  * （3）case class產生衍生物鍵會自動實現apply and unapply方法，而case object則不會！
   *
   *
   * 所以，case object可以提昇程式的執行速度。～
