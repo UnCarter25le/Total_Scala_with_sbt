@@ -80,6 +80,8 @@ object ch03_1_if extends App{
     println("other")
   }
 
+  //x=8  xx=9 在上面的敘述都符合，但編譯器會優先以最上面的為主
+
   println("=========")
   println("（1）_4_if  巢狀結構")
 
@@ -120,6 +122,7 @@ object ch03_1_if extends App{
   println(xxxx)
 
   val xxxxx = if("hello" == "hell") println("1") else println("0")
+
 
 
 

@@ -12,13 +12,17 @@ object ch4_2_5_method extends App {
 
   println(intArr.min)
 
-  //轉成字串
+  println(intArr.length)
+
+  //將類型Array轉成字串String
   println(intArr.toString)
 
-  //轉成字串，並以什麼分開
+  //將Array中的元素萃取出來，放進字串String集合裡，並以什麼分開
   println(intArr.mkString(";"))
 
   //元素轉成字串
   println(intArr.mkString)
+  //類型是String
+  println(intArr.mkString.getClass)
 
 }

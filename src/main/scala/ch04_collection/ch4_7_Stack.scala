@@ -36,4 +36,5 @@ object ch4_7_Stack extends App {
   //移出第一個元素
   println(stack1.top)
 
+
 }

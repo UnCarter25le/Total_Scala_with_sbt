@@ -112,7 +112,7 @@ object ch2_3_basic_manipulate_of_data_type extends App{
   //用java中，比較物件的記憶體參考位置，要用eq
   println(a.eq(aa))   //true原因，java在記憶體中會有個字串池，放置所有是字串的值
   //那字串物件記憶體的位置，一定是一樣的
-  println(aaa.eq(aaaa)) //false的原因，因為定義兩個不塗的物件，記憶體參照位置會不一樣
+  println(aaa.eq(aaaa)) //false的原因，因為新new定義兩個不同的物件，記憶體參照位置會不一樣
 
 
   println("===============")
@@ -135,7 +135,7 @@ object ch2_3_basic_manipulate_of_data_type extends App{
 
   println(str.reverse)
 
-  println(str.drop(3))
+  println(str.drop(3))   //去掉第三條分隔線之前的元素
 
   println(str.slice(1,4)) //切割字元的方式，同python
 

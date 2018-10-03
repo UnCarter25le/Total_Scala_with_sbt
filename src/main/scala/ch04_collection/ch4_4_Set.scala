@@ -15,9 +15,11 @@ object ch4_4_Set extends App {
   println(numsSet)
 
   println("==================")
-  println("(1)Set增加元素的方式")
+  println("(1)Set增加元素的方式:+、+=")
 
-  println(numsSet+6)
+  println(numsSet+=6)
+
+  println(numsSet+7)
 
   //set插入元素時，並不保證元素的順序；Set的實現方式是hashSet，集中的元素透過hashcode值進行組織（不重複）
 
@@ -33,10 +35,11 @@ object ch4_4_Set extends App {
 
   println(linkedHashSet)
 
-  println(linkedHashSet+6)
+  println(linkedHashSet+6)       //  +    .+=  的差異，後者會保留
 
   println(linkedHashSet.+=(7.0))
 
+  //Set  刪除元素的方式，dropWhile
   println(linkedHashSet.dropWhile(p => p == 3.0))
 
 

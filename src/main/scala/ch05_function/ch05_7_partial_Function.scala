@@ -14,7 +14,7 @@ object ch05_7_partial_Function extends App{
   /*
   *
   * scala中的偏函數定義為trait PartialFunction[-A, +B] extends(A=>B)
-  *
+  *val listInt = List(1,2,3)
   * 泛型參數A為偏函數的輸導入參數類型，泛型參數B為偏函數的傳回結果類型。
   *
   * 由於偏函數可以只處理參數定義域的子集，對子集之外的參數會拋出異常，這一特點使得偏函數與scala模式比對能夠完美結合。
@@ -39,7 +39,7 @@ object ch05_7_partial_Function extends App{
   println(isEven(10).getClass)
 
 
-  //符合isEven方法的數，才會被提取出來
+  //符合isEven方法的數，才會被提取出來放在vector
   println(sample.collect(isEven))
 
 
@@ -53,7 +53,7 @@ object ch05_7_partial_Function extends App{
 
   println("==================")
   println("(2)偏函數與map結合。")
-  //多個偏函數丟入map裡進行資料判斷。
+  //多個偏函數丟入map裡進行資料判斷 orElse。
   val numbers = sample.map(isEven orElse isOdd)
 
   println(numbers)

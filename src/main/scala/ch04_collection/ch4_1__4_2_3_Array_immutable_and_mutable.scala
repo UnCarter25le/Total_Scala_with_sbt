@@ -1,5 +1,7 @@
 package ch04_collection
 
+
+//scala預設用immutable，如果要特別用mutable，則要引用
 //4-1 ~ 4-2.3
 
 object ch4_1__4_2_3_Array_immutable_and_mutable extends App {
@@ -9,7 +11,7 @@ object ch4_1__4_2_3_Array_immutable_and_mutable extends App {
   println("(1)以new 來創立immutalbe Array。長度不可變，內容可以變。")
   //以Array為例
   //數值物件類型被初始化為0
-  val numberArray = new Array[Int](10)
+  val numberArray = new Array[Int](10)  //因為是immutable，所以()裡要指定元素個數
   
   //指定索引0為1
   numberArray(0) = 1
@@ -32,6 +34,9 @@ object ch4_1__4_2_3_Array_immutable_and_mutable extends App {
                       //可以直接指定，是因為有apply方法
 
   println(strArray2(0))
+
+  strArray2(1) = "the third"  //改變索引1的元素
+  println(strArray2(1))
 
 //  strArray2(2)="third element"      // 會出錯，因為immutable array
 //  println(strArray2(2))
@@ -69,7 +74,7 @@ object ch4_1__4_2_3_Array_immutable_and_mutable extends App {
 
   println(strArrayVar)
 
-  //trimEnd()刪除最後面的元素
+  //trimEnd()刪除最後面數來多少個的元素
 
   strArrayVar.trimEnd(5)
 
@@ -119,4 +124,5 @@ object ch4_1__4_2_3_Array_immutable_and_mutable extends App {
   println(ggg(0))
 
   println(intArrayVar.toArray.toBuffer)
+                              // .toBuffer 就等於ArrayBuffer
 }

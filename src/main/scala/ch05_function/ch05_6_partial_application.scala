@@ -5,7 +5,7 @@ package ch05_function
 object ch05_6_partial_application extends App{
 
   println("==================")
-  println("(1)生成部份應用函數；新生成的函數，部份參數已經被定義了。")
+  println("(1)生成部份應用函數：部份參數已經被定義了。")
 
 
   def multify(factor:Int)(x:Double)=factor*x

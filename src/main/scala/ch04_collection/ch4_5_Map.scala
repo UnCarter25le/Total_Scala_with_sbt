@@ -3,6 +3,8 @@ package ch04_collection
 object ch4_5_Map extends App{
 
   /*
+  * scala預設用immutable，如果要特別用mutable，則要引用
+  *
   * Map也分成immutable.Map[A,B]  ,  mutable.Map[A,B]
   *
   *
@@ -10,7 +12,7 @@ object ch4_5_Map extends App{
 
 
   println("================================")
-  println("(1)初始化不可變Map，左邊是key，右邊是value；取value")
+  println("(1)不使用new，初始化不可變Map，左邊是key，右邊是value；取value")
 
 
   val studentInfo = Map("john" -> 21, "stephen" -> 22, "lucy" -> 20)
@@ -21,11 +23,11 @@ object ch4_5_Map extends App{
   println(studentInfo.get("john"))
 
 
-  //Map相加
+  //Map相加  ++
   println(studentInfo ++ Map("carter" -> "yang"))
 
   println("================================")
-  println("(2)初始化可變Map，左邊是key，右邊是value；取value")
+  println("(2)不使用new，初始化可變Map，左邊是key，右邊是value；取value")
   val studentInfoMutable = scala.collection.mutable.Map("john" -> 21, "stephen" -> 22, "lucy" -> 20)
 
   //另一種初始化方法。
@@ -34,12 +36,14 @@ object ch4_5_Map extends App{
   println(xMap1)
 
   //因為可變，所以可以呼叫clear
+  println(studentInfoMutable)
+
   println(studentInfoMutable.clear())
 
   println(studentInfoMutable)
 
   println("================================")
-  println("(3)檢查Map")
+  println("(3)檢查Map裡的元素，發現都是tuple")
 
   val studentInfoMutable1 = scala.collection.mutable.Map("john" -> 21, "stephen" -> 22, "lucy" -> 20)
 
@@ -56,7 +60,7 @@ object ch4_5_Map extends App{
 
 
   println("================================")
-  println("(4)定義空hashMap；放key-value進去")
+  println("(4)使用new，定義空hashMap；放key-value進去")
 
   val xMap = new scala.collection.mutable.HashMap[String,Int]()
 

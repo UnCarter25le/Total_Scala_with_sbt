@@ -12,8 +12,8 @@ object ch4_3_List extends App{
   * */
 
 
-  //Nil 表示空集合
-
+  //Nil 表示List的空集合
+  println(Nil)
   //::  表示連接集合的符號
 
   println("(1)建立List，字串型態。")
@@ -60,24 +60,35 @@ object ch4_3_List extends App{
 
   val nums1 = 1::2::3::4::Nil
 
-  println(nums)
+  println(nums1)
 
-  //兩個是同意的。
+  //  val nums22 = 1::2::3 // 會報錯，使用::、:::  一定要跟list或Nil搭配。
+  // :: 會將右邊的物件，以元素的形式和左邊物件相加。
+  // ::: 兩旁一定是集合；將雙方集合的元素打散重組起來。
+
+  println(List(5,7)::List(2,3))
+  println(List(5,7):::List(2,3))
+
+  println(4::5::(11::(22::List(111,222))))
+
 
   println("==================")
   println("(6)List常用方法。")
 
+  //  nums1 = List(1, 2, 3, 4)
   //是否為空
   println(nums1.isEmpty)
 
   //取第一個元素
   println(nums1.head)
 
-  //除了第一個元素外的，其他元素，還是list
+  //除了第一個元素外的，其他元素，還是list     ；跟 nums1.init相反
   println(nums1.tail)
 
   println(nums1.tails)
-  println("=將前列的元素一個個拿掉，列印所有list結果=")
+  println(nums1.tails.mkString(" "))
+  println("==================")
+  println("(6)_1_將前列元素從首部一個個拿掉，列印所有list結果=")
   for(i <- nums1.tails) println(i)
   println("==")
 
@@ -87,8 +98,8 @@ object ch4_3_List extends App{
   //除了最後一個元素外的，其他元素，還是list
   println(nums1.init)
 
-
-  println("==將後列的元素一個個拿掉，列印所有list結果")
+  println("==================")
+  println("(6)_2_將後列元素從尾部一個個拿掉，列印所有list結果")
   println(nums1.inits)
   for(i <- nums1.inits) println(i)
   println("==")
@@ -105,36 +116,49 @@ object ch4_3_List extends App{
   //去掉第一個元素，反轉，還是list
   println(nums1.tail.reverse)
 
+  println("==================")
+  println("(6)_3_drop 和  take  相對===")
   //去掉前n個元素，還是list
   println(nums1 drop 2)
 
   println(nums1.drop(2))
+
+  println("==================")
+  println("(6)_4_drop 和  take  相對===")
   //取得前n個元素，還是list
   println(nums1 take 3)
 
   println(nums1.take(3))
 
-  println("將一list分割")
+  println("==================")
+  println("(6)_5_將一list分割---從第幾條分割線分割陣列、集合===")
   println(nums1.splitAt(2))
 
 
-  val nums2 = List(1,2,3,4,5)
+  val nums2 = List(1,2,3,4,5,6)
 
   val chars = List('1','2','3','4')
 
-  // 兩個list縫合，型態是tuple
+  println("==================")
+  println("(6)_6_兩個list縫合，元素型態是tuple，整體還是list===")
+  println(nums2.zip(chars).getClass)
   println(nums2.zip(chars))
 
   val ggg = nums2.zip(chars)
 
+
   println(ggg(0).getClass)
 
+  println("==================")
+  println("(6)_7_list 轉成 String===")
+  //toString通常是將原來集合物件println出的東西，轉成String，所以使用上不太好用
   println(nums2.toString)
 
+  //mkString可以將集合裡的元素轉成String，這才是我們要的。
   println(nums2.mkString(";"))
 
-
-  //list可以轉成Array
+  println("==================")
+  println("(6)_8_list可以轉成Array===")
   println(nums2.toArray)
 
   val fff = nums2.toArray
@@ -142,17 +166,22 @@ object ch4_3_List extends App{
   println(fff(0))
 
 
+  println("==================")
+  println("(6)_9_兩個list合併")
 
-  println("兩個list合併")
+  //兩個list元素打散結合。
   println(List(1,2,3):::List(4,5,6))
+
+  //List(4,5,6)中的元素與List(1,2,3)結合。
+  println(List(1,2,3)::List(4,5,6))
 
 
 
   println("==================")
-  println("(7)List衍生物件方法。")
+  println("(7)List衍生物件方法，apply  range  concat。")
 
   println(List(1,2,3))
-  println(List.apply(1,2,3))
+  println(List.apply("aa","bb","cc"))
 
   //until 效果
   println(List.range(2,6))
@@ -163,7 +192,7 @@ object ch4_3_List extends App{
 
 //  println(List.makes(5,"hey"))
 
-  //List中有List元素，將其flatten攤平
+  //多維List集合，用flatten攤平
   val xss = List(List('a','b'),List('c'),List('d','e'))
   println(xss)
   println(xss.flatten)

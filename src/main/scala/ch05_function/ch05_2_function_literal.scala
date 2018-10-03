@@ -6,7 +6,7 @@ object ch05_2_function_literal extends App{
   println("(1)function literal 函數字面常數、或稱值函數。")
   /*
   *
-  * scala語言中函數也是物件，也可以像變數一樣被設定值。
+  * scala語言中函數也是物件，也可以指定給變數物件。
   *
   *
   *
@@ -23,6 +23,7 @@ object ch05_2_function_literal extends App{
   *
   * */
 
+  //將匿名函數指定給變數物件，稱為值函數。
   val sum=(x:Int,y:Int)=>{
     x+y
   }
@@ -48,7 +49,7 @@ object ch05_2_function_literal extends App{
 
 
   println("==================")
-  println("(3)值函數應用在map迭代方法的簡化。")
+  println("(3)值函數應用在map迭代方法的簡化；高階函式的應用。")
 
   /*
   * 值函數最常使用的場景是作為高階函數的輸入。

@@ -57,7 +57,7 @@ object ch2_1_definition_of_varivable extends App{
 
   /*定義變數時不想定義其值，可以用預留法。
   *
-  * 只是用在var變數
+  * 只適用在var變數
   *
   * */
 

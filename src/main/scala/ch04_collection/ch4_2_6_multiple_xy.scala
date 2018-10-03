@@ -2,6 +2,11 @@ package ch04_collection
 
 object ch4_2_6_multiple_xy extends App {
 
+  /*
+  * 多維陣列
+  *
+  * */
+
   var multiDimArr = Array(Array(1,2,3),Array(4,5,6))
 
 
@@ -16,7 +21,7 @@ object ch4_2_6_multiple_xy extends App {
   }
 
   println("==========")
-  println("對多為陣列可以透過多重for迴圈來檢查。")
+  println("對多維陣列可以透過多重for迴圈來檢查。")
   //先將每一個陣列指定給i，再將陣列內的元素指定給j
 
   for ( i <- multiDimArr){

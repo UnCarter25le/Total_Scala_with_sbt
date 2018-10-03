@@ -18,7 +18,6 @@ object ch07_2_uses_of_trait extends App {
   //案例類別，跟單例物件(singleton) object Person有同樣的好處，不需要new就可以建立物件
   case class Person(var id: Int, var name: String, var age: Int)
 
-
   trait PersonDAO {
 
     def add(p: Person)

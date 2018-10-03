@@ -29,6 +29,7 @@ object ch4_6_Queue extends App {
 
   println(queue1 += 6)
 
+  println(queue1.enqueue(7))
   //與上面enqueue的不同，全部攤平
   println(queue1 += (1,2,3,4))
 

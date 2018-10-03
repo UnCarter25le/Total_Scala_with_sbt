@@ -14,7 +14,7 @@ object ch05_3_highclass_function extends App{
   def higherOrderFunction(f:Double=>Double)= f(100)
 
 
-//  定義輸入是Double，傳回值是Double的方法
+//  定義輸入的方法，它的參數型態必須是Double，傳回值型態是Double
   def sqrt(x:Double) = Math.sqrt(x)
 
   //代表higherOrderFunction接受的參數要是函式才可以。
@@ -67,7 +67,7 @@ object ch05_3_highclass_function extends App{
   val list = List("spark" -> 1,"hive" -> 2,"hadoop" -> 2)
   println(list)
 
-  println(list.map(x=>x._1))
+  println(list.map(x=>x._1))  // ._1 只取key的意思
 
   println(list.map(_._1))
 
@@ -105,6 +105,9 @@ object ch05_3_highclass_function extends App{
 
 
 
+  //val listInt = List(1,2,3)
+
+  //map  每迭代一個元素，就成為一個集合
   val rr = listInt.map(x=> x match{
     case 1 => List(1)
 
@@ -114,6 +117,7 @@ object ch05_3_highclass_function extends App{
 
   println(rr)
 
+  //flatmap迭代完元素後，才會形成集合
   val dd = listInt.flatMap(x=> x match{
     case 1 => List(1)
 

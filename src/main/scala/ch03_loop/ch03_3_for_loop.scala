@@ -4,9 +4,9 @@ object ch03_3_for_loop extends App{
 
   /*
   * 無論for loop  或者while loop  ，scala語言都沒有提供java語言中的break and  continue關鍵字；
-  * 但是if 卻是有的。
+  * 但是if 卻是有的，必須 import scala.util.control.Breaks._
   *
-  * python中都有的！
+  * python中都有break and continue！
   *
   * */
 
@@ -160,7 +160,7 @@ object ch03_3_for_loop extends App{
   /*
   * for 循環同關鍵自yield一起使用可作為運算式，循環執行完成後對每一個"傳回值"做另外處理。
   *
-  * 經過yield處理過得回傳值，是個vector
+  * 如果只是range的數字集合，經過yield處理過的回傳值，是個vector
   *
   * */
 

@@ -25,7 +25,7 @@ object ch03_2_while_loop extends App{
   /*
 *
 * do{
-*    不管有沒有符合條件，都會先執行；如何符合while的條件判斷，do區就會一直做
+*    不管有沒有符合條件，都會先執行；如果符合while的條件判斷，do區就會一直做
 * }
 * while(條件判斷1)
 *

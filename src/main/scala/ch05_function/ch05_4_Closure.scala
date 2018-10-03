@@ -16,6 +16,7 @@ object ch05_4_Closure extends App{
   *  所以開放與封閉的結合，就稱作Closure。
   *
   *
+  * 閉包函數：回傳值會受到全域變數的變動而影響
   * */
 
 
@@ -43,6 +44,8 @@ object ch05_4_Closure extends App{
 //  定義f:Double=>Double的算法不一樣。
   val ff =(x:Double)=>x*2
 
+
+  //println 表示沒有回傳值了 ，Unit了
   val pp ={x:Double => println(x)}
 
   a(ff,pp)
