@@ -4,7 +4,7 @@
 		module="total_scala_with_sbt$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180226003733"
+		publication="20190323223530"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

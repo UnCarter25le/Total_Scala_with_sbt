@@ -29,7 +29,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.pom
-[debug] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.pom(pom.original) (1228ms)
+[debug] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.pom(pom.original) (656ms)
 [debug] 		tried /home/bluevc/.ivy2/local/org.scalaj/scalaj-http_2.12/2.3.0/jars/scalaj-http_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar
 [debug] 	found org.scalaj#scalaj-http_2.12;2.3.0 in public
@@ -65,7 +65,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.pom
-[debug] 	[SUCCESSFUL ] org.jsoup#jsoup;1.11.2!jsoup.pom(pom.original) (923ms)
+[debug] 	[SUCCESSFUL ] org.jsoup#jsoup;1.11.2!jsoup.pom(pom.original) (640ms)
 [debug] 		tried /home/bluevc/.ivy2/local/org.jsoup/jsoup/1.11.2/jars/jsoup.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
 [debug] 	found org.jsoup#jsoup;1.11.2 in public
@@ -86,7 +86,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.pom(pom.original) (819ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.pom(pom.original) (639ms)
 [debug] 		tried /home/bluevc/.ivy2/local/com.typesafe.play/play-json_2.12/2.6.7/jars/play-json_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar
 [debug] 	found com.typesafe.play#play-json_2.12;2.6.7 in public
@@ -141,7 +141,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.pom(pom.original) (819ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.pom(pom.original) (664ms)
 [debug] 		tried /home/bluevc/.ivy2/local/com.typesafe.play/play-functional_2.12/2.6.7/jars/play-functional_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
 [debug] 	found com.typesafe.play#play-functional_2.12;2.6.7 in public
@@ -226,7 +226,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.pom(pom.original) (1227ms)
+[debug] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.pom(pom.original) (640ms)
 [debug] 		tried /home/bluevc/.ivy2/local/org.typelevel/macro-compat_2.12/1.1.1/jars/macro-compat_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
 [debug] 	found org.typelevel#macro-compat_2.12;1.1.1 in public
@@ -290,7 +290,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom
-[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.pom(pom.original) (1743ms)
+[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.pom(pom.original) (648ms)
 [debug] 		tried /home/bluevc/.ivy2/local/joda-time/joda-time/2.9.9/jars/joda-time.jar
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar
 [debug] 	found joda-time#joda-time;2.9.9 in public
@@ -326,7 +326,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.pom(pom.original) (1404ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.pom(pom.original) (645ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.8/ivys/ivy.xml
@@ -338,7 +338,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.8!jackson-parent.pom(pom.original) (1154ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.8!jackson-parent.pom(pom.original) (652ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;27 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;27 {}
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml/oss-parent/27/ivys/ivy.xml
@@ -350,7 +350,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;27!oss-parent.pom(pom.original) (1843ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;27!oss-parent.pom(pom.original) (657ms)
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml/oss-parent/27/jars/oss-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.jar
@@ -396,7 +396,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.pom(pom.original) (717ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.pom(pom.original) (661ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.9/bundles/jackson-annotations.jar
@@ -434,7 +434,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.pom(pom.original) (761ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.pom(pom.original) (645ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.9/bundles/jackson-databind.jar
@@ -483,7 +483,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.pom(pom.original) (617ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.pom(pom.original) (646ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-modules-java8;2.8.9 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-modules-java8;2.8.9 {}
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson.module/jackson-modules-java8/2.8.9/ivys/ivy.xml
@@ -495,7 +495,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.9/jackson-modules-java8-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.9/jackson-modules-java8-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.9/jackson-modules-java8-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-modules-java8;2.8.9!jackson-modules-java8.pom(pom.original) (763ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-modules-java8;2.8.9!jackson-modules-java8.pom(pom.original) (667ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-bom;2.8.9 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-bom;2.8.9 {}
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson/jackson-bom/2.8.9/ivys/ivy.xml
@@ -507,7 +507,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.9/jackson-bom-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-bom;2.8.9!jackson-bom.pom(pom.original) (1049ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-bom;2.8.9!jackson-bom.pom(pom.original) (650ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson/jackson-bom/2.8.9/jars/jackson-bom.jar
@@ -563,7 +563,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.pom(pom.original) (665ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.pom(pom.original) (638ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-modules-java8;2.8.9 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.module#jackson-modules-java8;2.8.9
 [debug] 		tried /home/bluevc/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.9/bundles/jackson-datatype-jsr310.jar
@@ -2868,36 +2868,22 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
+[debug] no default ivy user dir defined: set to /home/bluevc/.ivy2
+[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/bluevc/.ivy2/cache
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar ...
-[debug] no default ivy user dir defined: set to /home/bluevc/.ivy2
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
 [debug] no default ivy user dir defined: set to /home/bluevc/.ivy2
-[debug] no default ivy user dir defined: set to /home/bluevc/.ivy2
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/bluevc/.ivy2/cache
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/bluevc/.ivy2
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/bluevc/.ivy2/cache
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/bluevc/.ivy2/cache
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/bluevc/.ivy2/cache
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (20ms)
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (60ms)
 [debug] 	default cache: /home/bluevc/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2906,36 +2892,12 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar
 [info] downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (83ms)
-[debug] 	default cache: /home/bluevc/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (86ms)
-[debug] 	default cache: /home/bluevc/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/bluevc/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (70ms)
+[debug] settings loaded (28ms)
 [debug] 	default cache: /home/bluevc/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2945,64 +2907,70 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.3.0/scalaj-http_2.12-2.3.0.jar
-[info] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar (2173ms)
+[info] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar (682ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
+[info] 	[SUCCESSFUL ] org.jsoup#jsoup;1.11.2!jsoup.jar (1018ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.jar (1255ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.jar (2388ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.jar (698ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(bundle) (2656ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar (681ms)
+[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar (650ms)
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar
 [info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
-[info] 	[SUCCESSFUL ] org.jsoup#jsoup;1.11.2!jsoup.jar (3262ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(bundle) (815ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.jar (5914ms)
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.9!joda-time.jar (1093ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(bundle) (914ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(bundle) (661ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(bundle) (9601ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(bundle) (1652ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.jar (11076ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(bundle) (928ms)
-[debug] :: resolution report :: resolve 22748ms :: artifacts dl 14021ms
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(bundle) (643ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(bundle) (21914ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(bundle) (668ms)
+[debug] :: resolution report :: resolve 15113ms :: artifacts dl 22595ms
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 compile produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-compile.xml
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 runtime produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-runtime.xml
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 test produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-test.xml
@@ -3014,5 +2982,5 @@
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 plugin produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-plugin.xml
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 pom produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-pom.xml
 [debug] 	report for default#total_scala_with_sbt_2.12;0.1 scala-tool produced in /home/bluevc/IdeaProjects/Total_Scala_with_sbt/target/scala-2.12/resolution-cache/reports/default-total_scala_with_sbt_2.12-scala-tool.xml
-[debug] 	resolve done (22748ms resolve - 14021ms download)
+[debug] 	resolve done (15113ms resolve - 22595ms download)
 [info] Done updating.
